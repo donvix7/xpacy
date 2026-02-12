@@ -1,5 +1,6 @@
 export const url = "https://app.xpacy.com"
 
+
 export async function getBanners() {
   try {
     const response = await fetch(`${url}/settings/homepage-sliders`);
